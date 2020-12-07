@@ -6,7 +6,7 @@ from theguardian import theguardian_content
 import re
 
 
-class MyLogicAdapter(BestMatch):
+class GuardianAdapter(BestMatch):
 
     def __init__(self, chatbot, **kwargs):
         super().__init__(chatbot, **kwargs)
@@ -26,11 +26,9 @@ class MyLogicAdapter(BestMatch):
         self.news_thread = None
 
     def find_article_keyword(self, keyword):
-        # create content
         headers = {"q": keyword}
         content = theguardian_content.Content(api='68427e29-0cd0-4ba4-a7c9-92350224c80f', **headers)
 
-        # get all results of a page
         json_content = content.get_content_response()
         results = content.get_results(json_content)
 
