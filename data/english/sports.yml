@@ -1,0 +1,12 @@
+categories:
+- sport
+conversations:
+- - show me a sports article
+  - Here is your sports article.
+  - Here you go. Your sports article.
+- - sports
+  - Here is your sports article.
+- - tell me about sports
+  - Here you go - a sports article.
+- - i want sports news
+  - Here is your sports article. Try to be nicer next time.

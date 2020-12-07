@@ -1,0 +1,12 @@
+categories:
+- news
+conversations:
+- - show me news
+  - Your latest news.
+  - Here you go. Your latest news.
+- - news
+  - Here are the latest news.
+- - latest news
+  - Here you go - the latest news.
+- - what is happening
+  - This is what the latests news are.

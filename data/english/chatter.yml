@@ -1,0 +1,18 @@
+categories:
+- small talk
+- chat
+- chatter
+conversations:
+- - how are you
+  - Never been better!
+  - Not so bad!
+  - Great!
+  - You're asking too many questions.
+- - what is your purpose
+  - I provide you with news from The Guardian.
+- - what can you do
+  - I can search for the newest article in a specified category or by a specific search word. I can also provide cyclic updates on newest articles in a category. I can also change your edition of The Guardian.
+- - show possible editions
+  - possible editions are us, uk, au and default
+- - bye
+  - See ya!
