@@ -7,7 +7,7 @@ def init_chatbot():
         name="GuardianBot",
         logic_adapters=[
             {
-                'import_path': 'guardian_adapter.MyLogicAdapter',
+                'import_path': 'guardian_adapter.GuardianAdapter',
                 'statement_comparison_function': 'chatterbot.comparisons.jaccard_similarity',
                 'default_response': "I don't know what you mean."
             },
