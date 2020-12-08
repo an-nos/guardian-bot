@@ -14,9 +14,19 @@ Guardian API: https://github.com/prabhath6/theguardian-api-python
 
 ## Functionalities
 * showing newest article in a category
+
+![Alt Text](res/article.gif)
 * searching for an article with given search words
-* news feed - providing the newest article from a category (by default every 10 seconds, easily customizable)
+
+![Alt Text](res/search.gif)
+* news feed - providing the newest article from a category (by default every 10 seconds, easily customizable
+
+![Alt Text](res/cyclic.gif)
+
 * changing the current The Guardian edition 
+
+![Alt Text](res/edition.gif)
+
 
 ## Currently supported categories
 * culture
