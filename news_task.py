@@ -54,6 +54,6 @@ class NewsTask:
             if new_url != self.newest_url:
                 self.newest_url = new_url
                 self.newest_title = new_title
-            print(f'{self.chatbot.get_response(self.active_category)} Title: {self.newest_title}. Link: {self.newest_url}')
+            print(f'{self.chatbot.get_response(self.active_category)}')
             time.sleep(10)
 
